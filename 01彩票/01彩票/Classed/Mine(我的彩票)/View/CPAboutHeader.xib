@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CPAboutHeader" customModule="_1彩票" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="337"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_logo" translatesAutoresizingMaskIntoConstraints="NO" id="sai-LV-W9l">
+                    <rect key="frame" x="72" y="20" width="211" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="211" id="FbZ-vn-LOW"/>
+                        <constraint firstAttribute="height" constant="67.5" id="hrg-4z-Wr3"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本：3.20 build 181" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0z-DX-9as">
+                    <rect key="frame" x="85" y="103" width="186" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="186" id="Al5-Ld-pUn"/>
+                        <constraint firstAttribute="height" constant="21" id="SOr-E4-VCa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="官网：http://cp.163.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFa-CS-513">
+                    <rect key="frame" x="85" y="132" width="178" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="178" id="Edb-DV-hJs"/>
+                        <constraint firstAttribute="height" constant="21" id="SeZ-0B-YWT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版权：网易公司 NetEase Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wp-Uv-saW">
+                    <rect key="frame" x="85" y="166" width="229" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="LG6-1G-ust"/>
+                        <constraint firstAttribute="width" constant="229" id="Wat-iL-BTG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology(Beijing)Co..,Ltd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryd-kP-zrO">
+                    <rect key="frame" x="123" y="200" width="178" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="PNg-r6-LNh"/>
+                        <constraint firstAttribute="width" constant="178" id="lIR-yl-S7o"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="5Wp-Uv-saW" firstAttribute="leading" secondItem="qFa-CS-513" secondAttribute="leading" id="1Q3-Ax-nqg"/>
+                <constraint firstItem="ryd-kP-zrO" firstAttribute="leading" secondItem="5Wp-Uv-saW" secondAttribute="leading" constant="38" id="3py-6l-D76"/>
+                <constraint firstItem="ryd-kP-zrO" firstAttribute="top" secondItem="5Wp-Uv-saW" secondAttribute="bottom" constant="13" id="M3K-a3-CFp"/>
+                <constraint firstItem="sai-LV-W9l" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RJH-RB-Mis"/>
+                <constraint firstItem="qFa-CS-513" firstAttribute="top" secondItem="B0z-DX-9as" secondAttribute="bottom" constant="8" id="S2y-lY-4JB"/>
+                <constraint firstItem="5Wp-Uv-saW" firstAttribute="top" secondItem="qFa-CS-513" secondAttribute="bottom" constant="13" id="hBf-eS-RNG"/>
+                <constraint firstItem="B0z-DX-9as" firstAttribute="top" secondItem="sai-LV-W9l" secondAttribute="bottom" constant="15" id="hb1-Pb-bST"/>
+                <constraint firstItem="B0z-DX-9as" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kZ9-M3-Y9L"/>
+                <constraint firstItem="qFa-CS-513" firstAttribute="leading" secondItem="B0z-DX-9as" secondAttribute="leading" id="pkF-KW-h11"/>
+                <constraint firstItem="sai-LV-W9l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="x0b-eS-QDn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="385.5" y="87.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about_logo" width="211" height="67"/>
+    </resources>
+</document>
